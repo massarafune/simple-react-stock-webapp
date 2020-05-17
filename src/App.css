@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.nav-link:hover {
+  color: #111 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:focus {
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:focus {
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calendar {
+  border: transparent;
+  border-radius: 4px;
+  background: #eee;
+  padding: 4px 7px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.react-datepicker-wrapper {
+  display: flex !important;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+#topSearch {
+  padding: 0 1.5rem !important;
+}
+
+#topStocklists {
+  padding: 0.5rem 1rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#topStocklists:hover {
+  color: #111 !important;
+  text-decoration: none !important;
 }
